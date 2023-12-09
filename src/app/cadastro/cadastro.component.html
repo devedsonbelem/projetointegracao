@@ -1,0 +1,23 @@
+<div class="container">
+    <h2>Cadastrar</h2>
+    
+    <div class="col-md-6">
+        <div class="card mt-5">
+            <div class="card-body">
+                <label>Nome:</label><br>
+                <input type="text" name="name" placeholder="Digite seu nome completo" class="form-control"
+                [(ngModel)]="user.name">
+
+                <label>Email:</label><br>
+                <input type="text" name="email" placeholder="Digite seu e-mail" class="form-control"
+                [(ngModel)]="user.email">
+
+                <label>Senha:</label><br>
+                <input type="password" name="password" placeholder="Digite sua senha" class="form-control"
+                [(ngModel)]="user.password">
+
+                <button class="btn btn-info mt-2" (click)="gravar();">Cadastrar</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,9 @@
+body{
+    background-color: #2d3436 !important;
+    color: #eee !important;
+}
+.card {
+    background-color: transparent !important;
+    border-color: aqua !important;
+    color: #eee !important;
+}
